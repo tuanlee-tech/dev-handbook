@@ -6,6 +6,7 @@ const isProd = process.env.NODE_ENV === "production"; // true nếu build (produ
 const repo = "react-mastery";
 
 export default defineConfig({
+  base: isProd ? `/${repo}/` : "/", // dynamic base path
   lang: "vi-VN",
   title: "ReactJS Mastery",
   description: "Khoá ReactJS 30 ngày – React 18/19, performance, hooks, patterns, best practices.",
@@ -40,7 +41,6 @@ export default defineConfig({
   ],
   vite: {
     plugins: [react()],
-    base: isProd ? `/${repo}/` : "/", // dynamic base path
     resolve: {
       alias: {
         '@ui': path.resolve(__dirname, '../components/ui'),
