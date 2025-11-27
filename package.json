@@ -1,4 +1,6 @@
 {
+  "name": "react-mastery",
+  "homepage": "https://tuanlee-tech.github.io/react-mastery/",
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
