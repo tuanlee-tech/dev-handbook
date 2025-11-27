@@ -2,6 +2,9 @@ import { defineConfig } from 'vitepress'
 import path from 'path'
 import react from '@vitejs/plugin-react'
 
+const isProd = process.env.NODE_ENV === "production"; // true nếu build (production)
+const repo = "react-mastery";
+
 export default defineConfig({
   lang: "vi-VN",
   title: "ReactJS Mastery",
@@ -37,7 +40,7 @@ export default defineConfig({
   ],
   vite: {
     plugins: [react()],
-    base: "/react-mastery/",
+    base: isProd ? `/${repo}/` : "/", // dynamic base path
     resolve: {
       alias: {
         '@ui': path.resolve(__dirname, '../components/ui'),
