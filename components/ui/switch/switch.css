@@ -1,0 +1,61 @@
+.ui-switch-wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.ui-switch-wrapper:has(input:disabled) {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.ui-switch-input {
+  appearance: none;
+  width: 44px;
+  height: 24px;
+  background: var(--color-background-lighter);
+  border: 2px solid var(--color-border);
+  border-radius: 12px;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+}
+
+.ui-switch-input:hover:not(:disabled) {
+  border-color: var(--color-border-light);
+}
+
+.ui-switch-input::before {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--color-text-muted);
+  left: 2px;
+  top: 2px;
+  transition: all 0.2s ease;
+}
+
+.ui-switch-input:checked {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  border-color: var(--color-primary);
+}
+
+.ui-switch-input:checked::before {
+  left: 22px;
+  background: var(--color-background);
+}
+
+.ui-switch-input:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 217, 255, 0.1);
+}
+
+.ui-switch-label {
+  font-size: 14px;
+  color: var(--color-text);
+  user-select: none;
+}

@@ -1,0 +1,23 @@
+/* // ==================== src/ui/global.css ==================== */
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #00D9FF;
+  --color-primary-dark: #00A3CC;
+  --color-background: #0a0e1a;
+  --color-background-light: #0f172a;
+  --color-background-lighter: #1e293b;
+  --color-border: #1e293b;
+  --color-border-light: #334155;
+  --color-text: #e4e4e7;
+  --color-text-secondary: #94a3b8;
+  --color-text-muted: #64748b;
+  --color-error: #ef4444;
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+}
+
+
