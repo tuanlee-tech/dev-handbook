@@ -64,6 +64,7 @@ export default defineConfig({
           items: [
             { text: "Giáo án", link: "/curriculum" },
             { text: "Lộ trình", link: "/30-days" },
+            { text: "TypeScript với React", link: "/typescript-react" },
           ]
         },
 
