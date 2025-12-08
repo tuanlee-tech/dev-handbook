@@ -30,14 +30,14 @@ export default defineConfig({
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'Dev Handbook - Tech Knowledge Base' }],
     ['meta', { property: 'og:description', content: 'Personal documentation covering Frontend, Backend, DevOps and more' }],
-    ['meta', { property: 'og:image', content: `/og-image.png` }],
+    ['meta', { property: 'og:image', content: `${base}og-image.png` }],
     ['meta', { property: 'og:url', content: 'https://tuanlee-tech.github.io/dev-handbook' }],
 
     // Twitter Card
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { name: 'twitter:title', content: 'Dev Handbook' }],
     ['meta', { name: 'twitter:description', content: 'Personal tech documentation - Frontend, Backend, DevOps' }],
-    ['meta', { name: 'twitter:image', content: `/og-image.png` }],
+    ['meta', { name: 'twitter:image', content: `${base}og-image.png` }],
   ],
 
   vite: {
