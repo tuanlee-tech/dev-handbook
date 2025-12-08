@@ -81,7 +81,7 @@ From Foundation to Senior Level
 - ✅ Performance optimization
 - ✅ Real-world projects
 
-<a href="/frontend/react/react-mastery/" class="like-btn">Start Learning →</a>
+<a href="/dev-handbook/frontend/react/react-mastery/" class="like-btn">Start Learning →</a>
 </div>
 
 <div style="border: 2px solid #f0db4f; border-radius: 8px; padding: 1.5rem;">
@@ -96,7 +96,7 @@ From Zero to Expert
 - ✅ JavaScript + C++
 - ✅ Big Tech interview ready
 
-<a href="/dsa/" class="like-btn">Start Learning →</a>
+<a href="/dev-handbook/dsa/" class="like-btn">Start Learning →</a>
 
 
 </div>

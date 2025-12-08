@@ -3,7 +3,7 @@ import path from 'path'
 
 const isProd = process.env.NODE_ENV === "production";
 const repo = "dev-handbook";
-const base = isProd ? `/${repo}/` : "/";
+export const base = isProd ? `/${repo}/` : "/";
 
 export default defineConfig({
   base: base,
