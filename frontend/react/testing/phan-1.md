@@ -573,7 +573,7 @@ await mockAsync(); // Promise -> 'success'
 // mockRejectedValue() - Return Promise rejected
 // Khi dùng: Mock async functions thất bại
 const mockAsyncError = vi.fn().mockRejectedValue(new Error('Fail'));
-await mockAsyncError(); // Promise -> Error
+await expect(mockAsyncError()).rejects.toThrow('Fail'); // Promise -> Error
 
 // mockImplementation() - Tự định nghĩa logic
 // Khi dùng: Mock function phức tạp
