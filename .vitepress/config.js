@@ -267,6 +267,10 @@ export default defineConfig({
                                     text: '📘 React Mastery (30 Days)',
                                     link: '/frontend/react/react-mastery/',
                                 },
+                                {
+                                    text: 'THE ULTIMATE REACT MASTERY',
+                                    link: '/frontend/react/the-ultimate-react-mastery/',
+                                },
                             ],
                         },
                         {
