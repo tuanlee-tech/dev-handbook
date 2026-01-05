@@ -478,7 +478,40 @@ export default defineConfig({
                     ],
                 },
             ],
-
+            '/frontend/react/the-ultimate-react-mastery/': [
+                {
+                    text: '📚 Giai đoạn học',
+                    collapsed: false,
+                    items: [
+                        {
+                            text: 'Giai đoạn 1 – NỀN TẢNG REACT (Ngày 1-15)',
+                            collapsed: true,
+                            items: [
+                                {
+                                    text: 'Ngày 1 – ES6+ Essentials cho React',
+                                    link: '/frontend/react/the-ultimate-react-mastery/stages/stage-1/01.es6-essentials-cho-react',
+                                },
+                                {
+                                    text: 'Ngày 2 – ES6+ Nâng cao',
+                                    link: '/frontend/react/the-ultimate-react-mastery/stages/stage-1/02.es6-nang-cao',
+                                },
+                                {
+                                    text: 'Ngày 3 – React Basics & JSX',
+                                    link: '/frontend/react/the-ultimate-react-mastery/stages/stage-1/03.react-basics-and-jsx',
+                                },
+                                {
+                                    text: 'Ngày 4 – Components & Props',
+                                    link: '/frontend/react/the-ultimate-react-mastery/stages/stage-1/04.components-and-props',
+                                },
+                                {
+                                    text: 'Ngày 5 – Events & Conditional Rendering',
+                                    link: '/frontend/react/the-ultimate-react-mastery/stages/stage-1/05.events-and-conditional-rendering',
+                                },
+                            ],
+                        }
+                    ],
+                },
+            ],
             // Backend sidebar
             '/backend/': [
                 {
