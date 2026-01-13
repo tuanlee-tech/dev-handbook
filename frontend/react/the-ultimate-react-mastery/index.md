@@ -1,4 +1,4 @@
-## 🎓 THE ULTIMATE REACT MASTERY - From Fundamentals to Senior-Level Architecture
+# 🎓 THE ULTIMATE REACT MASTERY - From Fundamentals to Senior-Level Architecture
 
 ## 📋 TRIẾT LÝ THIẾT KẾ
 
