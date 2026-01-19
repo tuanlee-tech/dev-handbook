@@ -21,24 +21,28 @@ Dev Handbook là nơi tôi ghi chép, tổng hợp kiến thức và kinh nghi�
 ## 📚 Nội dung chính
 
 ### ⚛️ [Frontend Development](/frontend/)
+
 - HTML/CSS: Flexbox, Grid, Responsive design
 - JavaScript/TypeScript: ES6+, async programming
 - React: Hooks, patterns, performance
 - Vue: Composition API, reactivity
 
 ### 🔧 [Backend Development](/backend/)
+
 - Node.js: Express, NestJS, middleware
 - Python: FastAPI, Django
 - Databases: PostgreSQL, MongoDB, Redis
 - APIs: REST, GraphQL
 
 ### 🐳 [DevOps & Infrastructure](/devops/)
+
 - Docker: Containers, compose, best practices
 - CI/CD: GitHub Actions, GitLab CI
 - Kubernetes: Basic concepts
 - Server: Nginx, deployment
 
 ### 🛠️ [Tools & Productivity](/tools-tips/)
+
 - Git: Workflows, commands, troubleshooting
 - VSCode: Extensions, shortcuts, settings
 - Terminal: Bash/Zsh tricks, tools
@@ -72,7 +76,6 @@ Nếu bạn mới bắt đầu hoặc muốn có lộ trình học có hệ th�
 ## 🔗 Quick Links
 
 - [Roadmap](/roadmap) - Lộ trình học tập
-- [React Mastery](/frontend/react/react-mastery/) - Khóa React 30 ngày
 - [Docker Guide](/devops/docker/dockerfile-best-practices) - Docker best practices
 - [Git Commands](/tools-tips/git/common-commands) - Git cheatsheet
 

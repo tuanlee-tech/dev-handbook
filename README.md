@@ -11,24 +11,28 @@
 This handbook contains my personal notes, guides, and best practices across various tech domains:
 
 ### ⚛️ **Frontend Development**
+
 - **React**: Hooks, patterns, performance, React 18/19 features
 - **Vue**: Composition API, reactivity system
 - **JavaScript/TypeScript**: Modern ES6+, async programming, type safety
 - **HTML/CSS**: Flexbox, Grid, responsive design, Tailwind CSS
 
 ### 🔧 **Backend Development**
+
 - **Node.js**: Express, NestJS, middleware patterns
 - **Python**: FastAPI, Django basics
 - **Databases**: PostgreSQL, MongoDB, Redis
 - **APIs**: REST, GraphQL, authentication
 
 ### 🐳 **DevOps & Infrastructure**
+
 - **Docker**: Dockerfile best practices, Docker Compose, multi-stage builds
 - **CI/CD**: GitHub Actions, GitLab CI pipelines
 - **Kubernetes**: Basic concepts, deployments
 - **Server**: Nginx, deployment strategies
 
 ### 🛠️ **Tools & Productivity**
+
 - **Git**: Workflows, common commands, troubleshooting
 - **VSCode**: Extensions, shortcuts, settings
 - **Terminal**: Bash/Zsh tricks, productivity tips
@@ -56,7 +60,6 @@ dev-handbook/
 │   ├── html-css/
 │   ├── javascript/
 │   ├── react/
-│   │   └── react-mastery/  # Original React course (30 days)
 │   └── vue/
 ├── backend/
 │   ├── index.md
@@ -84,6 +87,7 @@ dev-handbook/
 ## 💻 Local Development
 
 ### Prerequisites
+
 - Node.js 18+ (recommended: 20+)
 - npm or yarn
 
