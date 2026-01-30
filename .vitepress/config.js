@@ -357,6 +357,52 @@ export default defineConfig({
                 },
               ],
             },
+            {
+              text: 'Giai đoạn 2 – SIDE EFFECTS & LIFECYCLE (Ngày 16-25)',
+              collapsed: true,
+              items: [
+                {
+                  text: 'Ngày 16 – useEffect Introduction',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-2/16.useeffect-introduction',
+                },
+                {
+                  text: 'Ngày 17 – useEffect Dependencies Deep Dive',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-2/17.useeffect-dependencies-deep-dive',
+                },
+                {
+                  text: 'Ngày 18 – Cleanup & Memory Leaks',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-2/18.cleanup-and-memory-leaks',
+                },
+                {
+                  text: 'Ngày 19 – Data Fetching Basics',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-2/19.data-fetching-basics',
+                },
+                {
+                  text: 'Ngày 20 – Data Fetching Advanced Patterns',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-2/20.data-fetching-advanced-patterns',
+                },
+                {
+                  text: 'Ngày 21 – useRef Fundamentals',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-2/21.useref-fundamentals',
+                },
+                {
+                  text: 'Ngày 22 – useRef DOM Manipulation',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-2/22.useref-dom-manipulation',
+                },
+                {
+                  text: 'Ngày 23 – useLayoutEffect',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-2/23.uselayouteffect',
+                },
+                {
+                  text: 'Ngày 24 – Custom Hooks Basics',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-2/24.custom-hooks-basics',
+                },
+                {
+                  text: 'Ngày 25 – Project 3 - Real-time Dashboard',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-2/25.project-3-real-time-dashboard',
+                },
+              ],
+            },
           ],
         },
       ],
