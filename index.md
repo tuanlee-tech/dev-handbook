@@ -73,7 +73,7 @@ features:
 
 ### 📘 THE ULTIMATE REACT MASTERY
 
-<a href="/dev-handbook/frontend/react/the-ultimate-react-mastery/" class="like-btn">Start Learning →</a>
+<a href="/frontend/react/the-ultimate-react-mastery/" class="like-btn">Start Learning →</a>
 
 </div>
 
