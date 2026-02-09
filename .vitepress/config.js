@@ -403,6 +403,52 @@ export default defineConfig({
                 },
               ],
             },
+            {
+              text: 'Giai đoạn 3 – COMPLEX STATE & PERFORMANCE (Ngày 26-35)',
+              collapsed: true,
+              items: [
+                {
+                  text: 'Ngày 26 – useReducer Fundamentals',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-3/26.usereducer-fundamentals',
+                },
+                {
+                  text: 'Ngày 27 – useReducer Advanced Patterns',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-3/27.usereducer-advanced-patterns',
+                },
+                {
+                  text: 'Ngày 28 – useReducer + useEffect',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-3/28.usereducer-with-useeffect',
+                },
+                {
+                  text: 'Ngày 29 – Custom Hooks with useReducer',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-3/29.custom-hooks-with-usereducer',
+                },
+                {
+                  text: 'Ngày 30 – Project 4: Shopping Cart',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-3/30.project-4-shopping-cart',
+                },
+                {
+                  text: 'Ngày 31 – React Rendering Behavior',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-3/31.react-rendering-behavior',
+                },
+                {
+                  text: 'Ngày 32 – React.memo',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-3/32.react-memo',
+                },
+                {
+                  text: 'Ngày 33 – useMemo',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-3/33.usememo',
+                },
+                {
+                  text: 'Ngày 34 – useCallback',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-3/34.usecallback',
+                },
+                {
+                  text: 'Ngày 35 – Project 5: Optimized Data Table',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-3/35.project-5-optimized-data-table',
+                },
+              ],
+            },
           ],
         },
       ],
