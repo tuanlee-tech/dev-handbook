@@ -449,6 +449,162 @@ export default defineConfig({
                 },
               ],
             },
+            {
+              text: 'Giai đoạn 4 – ADVANCED PATTERNS (Ngày 36-45)',
+              collapsed: true,
+              items: [
+                {
+                  text: 'Ngày 36 – Context Fundamentals',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-4/36.context-fundamentals',
+                },
+                {
+                  text: 'Ngày 37 – Context Advanced Patterns',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-4/37.context-advanced-patterns',
+                },
+                {
+                  text: 'Ngày 38 – Context Performance Optimization',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-4/38.context-performance-optimization',
+                },
+                {
+                  text: 'Ngày 39 – Component Patterns Part 1 (Compound Components)',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-4/39.component-patterns-compound-components',
+                },
+                {
+                  text: 'Ngày 40 – Component Patterns Part 2 (Render Props & HOCs)',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-4/40.component-patterns-render-props-hoc',
+                },
+                {
+                  text: 'Ngày 41 – React Hook Form Basics',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-4/41.react-hook-form-basics',
+                },
+                {
+                  text: 'Ngày 42 – React Hook Form Advanced',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-4/42.react-hook-form-advanced',
+                },
+                {
+                  text: 'Ngày 43 – Form Validation with Zod',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-4/43.form-validation-with-zod',
+                },
+                {
+                  text: 'Ngày 44 – Multi-step Forms Architecture',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-4/44.multi-step-forms-architecture',
+                },
+                {
+                  text: 'Ngày 45 – Project 6: Registration Flow',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-4/45.project-6-registration-flow',
+                },
+              ],
+            },
+            {
+              text: 'Giai đoạn 5 – MODERN REACT FEATURES (Ngày 46-52)',
+              collapsed: true,
+              items: [
+                {
+                  text: 'Ngày 46 – Concurrent Rendering Introduction',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-5/46.concurrent-rendering-introduction',
+                },
+                {
+                  text: 'Ngày 47 – useTransition',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-5/47.usetransition',
+                },
+                {
+                  text: 'Ngày 48 – useDeferredValue',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-5/48.usedeferredvalue',
+                },
+                {
+                  text: 'Ngày 49 – Suspense for Data Fetching',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-5/49.suspense-for-data-fetching',
+                },
+                {
+                  text: 'Ngày 50 – Error Boundaries',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-5/50.error-boundaries',
+                },
+                {
+                  text: 'Ngày 51 – React Server Components Overview',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-5/51.react-server-components-overview',
+                },
+                {
+                  text: 'Ngày 52 – Project 7: Modern React App',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-5/52.project-7-modern-react-app',
+                },
+              ],
+            },
+            {
+              text: 'Giai đoạn 6 – TESTING & QUALITY (Ngày 53-60)',
+              collapsed: true,
+              items: [
+                {
+                  text: 'Ngày 53 – Testing Philosophy',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-6/53.testing-philosophy',
+                },
+                {
+                  text: 'Ngày 54 – React Testing Library Basics',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-6/54.react-testing-library-basics',
+                },
+                {
+                  text: 'Ngày 55 – Testing Hooks & Context',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-6/55.testing-hooks-and-context',
+                },
+                {
+                  text: 'Ngày 56 – Mocking API with MSW',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-6/56.mocking-api-with-msw',
+                },
+                {
+                  text: 'Ngày 57 – Integration & E2E Testing Overview',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-6/57.integration-and-e2e-testing-overview',
+                },
+                {
+                  text: 'Ngày 58 – TypeScript Fundamentals for React',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-6/58.typescript-fundamentals-for-react',
+                },
+                {
+                  text: 'Ngày 59 – TypeScript Advanced Patterns',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-6/59.typescript-advanced-patterns',
+                },
+                {
+                  text: 'Ngày 60 – Accessibility (A11y)',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-6/60.accessibility-a11y',
+                },
+              ],
+            },
+            {
+              text: 'Giai đoạn 7 – CAPSTONE PROJECT (Ngày 61-75)',
+              collapsed: true,
+              items: [
+                {
+                  text: 'Ngày 61 – Capstone Planning & Architecture',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-7/61.capstone-planning-and-architecture',
+                },
+                {
+                  text: 'Ngày 62–63 – Authentication Flow',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-7/62-63.authentication-flow',
+                },
+                {
+                  text: 'Ngày 64–65 – Feed Core Features',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-7/64-65.feed-core-features',
+                },
+                {
+                  text: 'Ngày 66–67 – User Interactions',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-7/66-67.user-interactions',
+                },
+                {
+                  text: 'Ngày 68–70 – Testing & Quality Assurance',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-7/68-70.testing-and-quality-assurance',
+                },
+                {
+                  text: 'Ngày 71–72 – Performance & Optimization',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-7/71-72.performance-and-optimization',
+                },
+                {
+                  text: 'Ngày 73–74 – Documentation & Review',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-7/73-74.documentation-and-review',
+                },
+                {
+                  text: 'Ngày 75 – Final Audit & Deployment Prep',
+                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-7/75.final-audit-and-deployment-prep',
+                },
+              ],
+            },
           ],
         },
       ],
