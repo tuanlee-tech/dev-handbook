@@ -1,6 +1,5 @@
----
-
 # 🗺️ LỘ TRÌNH 6 THÁNG — MIDDLE/SENIOR FRONTEND REACT/NEXT.JS
+
 ### Tài liệu tổng hợp kế hoạch học tập & career transition
 
 **Mục tiêu:** Vị trí Middle→Senior Frontend tại công ty Outsource US/EU
