@@ -195,6 +195,10 @@ export default defineConfig({
               collapsed: true,
               items: [
                 {
+                  text: 'Client-Side Analytics Engine',
+                  link: '/frontend/javascript/analytics-engine',
+                },
+                {
                   text: 'ES6+ Features',
                   link: '/frontend/javascript/es6-features',
                 },
