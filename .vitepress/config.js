@@ -248,6 +248,10 @@ export default defineConfig({
                   ],
                 },
                 {
+                  text: 'Web Production Architecture Guide',
+                  link: '/frontend/react/web_production_architecture_guide',
+                },
+                {
                   text: 'Tối Ưu React Rendering',
                   link: '/frontend/react/toi-uu-react-rendering',
                 },
