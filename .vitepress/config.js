@@ -96,17 +96,6 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Getting Started', link: '/getting-started' },
-      {
-        text: 'Topics',
-        items: [
-          { text: '⚛️ Frontend', link: '/frontend/' },
-          { text: '🔧 Backend', link: '/backend/' },
-          { text: '🐳 DevOps', link: '/devops/' },
-          { text: '🛠️ Tools & Tips', link: '/tools-tips/' },
-          { text: '🧩 DSA', link: '/dsa/' },
-        ],
-      },
       {
         text: 'Courses',
         items: [
@@ -114,7 +103,6 @@ export default defineConfig({
             text: 'THE ULTIMATE REACT MASTERY',
             link: '/frontend/react/the-ultimate-react-mastery/',
           },
-          { text: '🚀 DSA Mastery (100 Days)', link: '/dsa/' },
         ],
       },
     ],
@@ -123,32 +111,23 @@ export default defineConfig({
       // Homepage sidebar
       '/': [
         {
-          text: '🚀 Getting Started',
-          collapsed: false,
-          items: [
-            { text: 'Introduction', link: '/getting-started' },
-            { text: 'Learning Roadmap', link: '/roadmap' },
-            { text: 'How to Use', link: '/how-to-use' },
-          ],
-        },
-        {
           text: '📚 Main Topics',
           collapsed: false,
           items: [
             { text: '⚛️ Frontend Development', link: '/frontend/' },
-            { text: '🔧 Backend Development', link: '/backend/' },
-            {
-              text: '🐳 DevOps & Infrastructure',
-              link: '/devops/',
-            },
-            {
-              text: '🛠️ Tools & Productivity',
-              link: '/tools-tips/',
-            },
-            {
-              text: '🧩 Data Structures & Algorithms',
-              link: '/dsa/',
-            },
+            // { text: '🔧 Backend Development', link: '/backend/' },
+            // {
+            //   text: '🐳 DevOps & Infrastructure',
+            //   link: '/devops/',
+            // },
+            // {
+            //   text: '🛠️ Tools & Productivity',
+            //   link: '/tools-tips/',
+            // },
+            // {
+            //   text: '🧩 Data Structures & Algorithms',
+            //   link: '/dsa/',
+            // },
           ],
         },
       ],
@@ -572,44 +551,6 @@ export default defineConfig({
                 {
                   text: 'Ngày 60 – Accessibility (A11y)',
                   link: '/frontend/react/the-ultimate-react-mastery/stages/stage-6/60.accessibility-a11y',
-                },
-              ],
-            },
-            {
-              text: 'Giai đoạn 7 – CAPSTONE PROJECT (Ngày 61-75)',
-              collapsed: true,
-              items: [
-                {
-                  text: 'Ngày 61 – Capstone Planning & Architecture',
-                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-7/61.capstone-planning-and-architecture',
-                },
-                {
-                  text: 'Ngày 62–63 – Authentication Flow',
-                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-7/62-63.authentication-flow',
-                },
-                {
-                  text: 'Ngày 64–65 – Feed Core Features',
-                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-7/64-65.feed-core-features',
-                },
-                {
-                  text: 'Ngày 66–67 – User Interactions',
-                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-7/66-67.user-interactions',
-                },
-                {
-                  text: 'Ngày 68–70 – Testing & Quality Assurance',
-                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-7/68-70.testing-and-quality-assurance',
-                },
-                {
-                  text: 'Ngày 71–72 – Performance & Optimization',
-                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-7/71-72.performance-and-optimization',
-                },
-                {
-                  text: 'Ngày 73–74 – Documentation & Review',
-                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-7/73-74.documentation-and-review',
-                },
-                {
-                  text: 'Ngày 75 – Final Audit & Deployment Prep',
-                  link: '/frontend/react/the-ultimate-react-mastery/stages/stage-7/75.final-audit-and-deployment-prep',
                 },
               ],
             },
